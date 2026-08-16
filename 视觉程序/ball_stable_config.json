@@ -1,0 +1,84 @@
+{
+  "device": "/dev/v4l/by-id/usb-Generic_USB_Camera_20000001-video-index0",
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "requested_fps": 100,
+    "mjpg": 1,
+    "buffers": 1,
+    "auto_exposure": 1,
+    "exposure": 50,
+    "gain": 100,
+    "gamma": 400,
+    "brightness": 0,
+    "contrast": 40,
+    "saturation": 70,
+    "sharpness": 50,
+    "backlight": 0,
+    "auto_white_balance": 1
+  },
+  "roi": {
+    "x": 5,
+    "y": 237,
+    "width": 598,
+    "height": 44
+  },
+  "binary": {
+    "background_kernel": 37,
+    "threshold": 18,
+    "open_kernel": 3,
+    "open_iterations": 1,
+    "close_kernel": 5,
+    "close_iterations": 1
+  },
+  "geometry": {
+    "min_radius": 7.0,
+    "max_radius": 16.0,
+    "expected_radius": 10.5,
+    "min_area": 100.0,
+    "max_area": 600.0,
+    "min_circularity": 0.65,
+    "max_aspect": 1.6
+  },
+  "tracking": {
+    "max_jump_px": 95.0,
+    "position_alpha": 0.62,
+    "velocity_alpha": 0.35,
+    "motion_weight": 6.0,
+    "lost_hold_frames": 5
+  },
+  "v5": {
+    "edge_margin_px": 12.0,
+    "edge_confidence_boost": 1.2,
+    "jump_speed_gain": 0.045,
+    "coast_frames": 5,
+    "min_circularity_edge": 0.5,
+    "min_area_edge": 65.0,
+    "jump_max_reject_frames": 8
+  },
+  "mapping": {
+    "map_x_left": 0.0,
+    "map_x_right": 597.0,
+    "position_min": 0.0,
+    "position_max": 448.0,
+    "target_position": 229
+  },
+  "signal": {
+    "velocity_alpha": 0.35,
+    "velocity_deadband_unit_s": 2.0,
+    "max_dt_s": 0.20,
+    "velocity_limit_unit_s": 10000.0,
+    "hold_on_lost_s": 0.10
+  },
+  "runtime": {
+    "display": 1,
+    "show_mask": 0,
+    "display_width": 800,
+    "print_every_frames": 5
+  },
+  "serial": {
+    "enabled": 1,
+    "port": "/dev/ttyUSB0",
+    "baudrate": 115200
+  }
+}
