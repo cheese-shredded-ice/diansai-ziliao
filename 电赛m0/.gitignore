@@ -1,0 +1,15 @@
+# Keil 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.htm
+*.dep
+*.lnp
+*.uvguix.*
+Objects/
+Listings/
